@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+/* shrift iz google */
+
+/* *{
+    padding: 0;
+    margin: 0;
+} obrashenie ko vsem elementam*/
+
+body { background-color: rgb(155, 173, 195); 
+color: rgb(52, 83, 105);
+
+font-size: 16px;
+font-weight: normal;
+font-family: 'Roboto', sans-serif;
+
+/* shrift iz google  */
+
+/* font: normal 16px 'Roboto',sans-serif; */
+
+/* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+a {
+    color: rgb(44, 45, 54);
+    text-decoration: none;
+}
+/* hover-navedenie */
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(103, 103, 228);
+}
+
+a:visited {
+    color: grey;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4{
+    margin-bottom: 10px;
+
+}
+
+.info p {
+    color: #353a42;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 15px; */
+    /* word-spacing: 42px; */
+}
+
+/* .social {
+    background: green;
+    /* padding: 15px; */
+    /* padding: 15px 40px; */
+    /* padding: 15px 20px 25px 30px; */
+    /* padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color: blue;
+    margin: 5px;
+} */ 
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+/* > - tol,ko deti div */
+/* .box-model > div{
+    background: #000;
+    height: 200px;
+    width: 25%;
+    float: left;
+    border: 4px solid red;
+    box-sizing: border-box;
+} */
+.bg-yellow {
+    background: #cf8837a3;
+}
+
+.bg-green {
+    background: #bec7c9;
+}
+
+.bg-red {
+    background: #ebb7b7ad;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #414347;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+.table th {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #86898f;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+text-align: center;
+}
+/* .table tr:nth-child(odd) {
+    background: red;
+} */
+
+.form-group label {
+display: block;
+font-size: 14px;
+color: #191c21;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10 px;
+    outline: none;
+    font-family: inherit;
+
+}
+
+.row  {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+
+}
+
+.btn {
+    background: rgb(62, 77, 99);
+    padding: 15px 20px;
+    color: rgb(179, 212, 225);
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 28px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* .position {
+    position: relative;
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+}
+
+.box {
+    position: fixed;
+    top: 0;
+    right: 0px;
+
+    width: 100%;
+    height: 50px;
+    background: lightcoral;
+} navigatsia*/
